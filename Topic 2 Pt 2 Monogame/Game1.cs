@@ -11,7 +11,6 @@ namespace Topic_2_Pt_2_Monogame
         private SpriteBatch _spriteBatch;
 
         Texture2D white_square;
-        Texture2D black_square;
 
         public Game1()
         {
@@ -35,7 +34,6 @@ namespace Topic_2_Pt_2_Monogame
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             white_square = Content.Load<Texture2D>("white_square");
-            black_square = Content.Load<Texture2D>("black_square");
 
         }
 
